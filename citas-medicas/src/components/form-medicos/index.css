@@ -1,0 +1,21 @@
+/* tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.input-style{
+    @apply block w-full 
+      ;
+}
+
+.contain{
+    @apply  flex justify-center;
+}
+.formulario{
+    @apply w-[90%] sm:w-[95%] md:w-[60%] p-4 m-5
+}
+
+.boton-guardar{
+    @apply bg-gray-800 text-lime-100 p-4 rounded-md hover:bg-gray-700 mt-2 float-right;
+}

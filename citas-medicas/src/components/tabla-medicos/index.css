@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    @apply w-full flex justify-center
+}
+.doctores{
+    @apply w-[90%]
+}
+.tabla_doctores{
+    @apply w-[100%];
+}
+.cabecera_table{
+    @apply bg-slate-600 text-white p-4
+}
